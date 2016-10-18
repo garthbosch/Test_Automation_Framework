@@ -1,0 +1,7 @@
+======================================================================================================
+==========Errors for addNewBSSPSchemeWithProductOptionAndMembersTest - ANBSWPO_0 Test Case==========
+======================================================================================================
+Starting ChromeDriver (v2.9.248315) on port 22614
+[Error] An error occurred while attempting to run the Daily Raisings Job - Cannot run program "C:\Projects\OneFM\trunk\OneFM.Sandbox\bin\Debug\OneFM.Sandbox.exe": CreateProcess error=2, The system cannot find the file specified
+[Error] An error occurred while attempting to run the Daily Raising Job
+[Error] Failed to complete Create Daily Raising And YMOutputFile

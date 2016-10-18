@@ -1,0 +1,326 @@
+======================================================================================================
+==========Starting addNewBSSPSchemeWithProductOptionAndMembersTest - ANBSWPO_0 Test Case==========
+======================================================================================================
+[Info] Browser type is: Chrome
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] Rows updated 1.
+[Info] ScheduleParameter value was updated to 2014/10/28.
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+2014-10-28_03-24-16=============Create New Scheme Up To Be Assessed=============
+2014-10-28_03-24-16=============Create New Scheme=============
+[Info] Element Schemes successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-24-18_Schemes_Page_Favor Administrators.png taken successfully.
+[Info] Element Create BSSP successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-24-21_Schemes_BeforeCapturingMinReqs_Favor Administrators.png taken successfully.
+[Info] Element Min Requirement New found.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Long Life was successfully selected for element No Specific element
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Element Min Reqs Yes successfully clicked.
+[Info] Scheme cancelled within 12 months was successfully selected for element No Specific element
+[Info] Element Next successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-08_Schemes_MinReqsConfirmExternalVendor_Favor Administrators.png taken successfully.
+[Info] Element Next successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-09_Schemes_SchemeDetails_BeforeCapturingSchemeDetails_Favor Administrators.png taken successfully.
+[Info] Favor Administrators was successfully typed to element Scheme Name
+[Info] Burial Society was successfully selected for element Scheme Type
+[Info] WESTERN CAPE was successfully selected for element Region
+[Info] MR was successfully selected for element Title
+[Info] Clarke was successfully typed to element Surname
+[Info] Steve was successfully typed to element Firstname
+[Info] clrk@bbs.com was successfully typed to element Scheme Contact Email
+[Info] 215587412 was successfully typed to element Contact Phone No
+[Info] 215587400 was successfully typed to element Contact Phone Fax No
+[Info] 823336985 was successfully typed to element Contact Phone Cell No
+[Info] 15 Belgrove Street was successfully typed to element Street Address 1
+[Info] Cricket Square was successfully typed to element Street Address 2
+[Info] Newlands was successfully typed to element Street Address 3
+[Info]   was successfully typed to element Street Address 4
+[Info] 7700 was successfully typed to element Street Address Postal Code
+[Info] Cape Town was successfully typed to element Street Address City
+[Info] South Africa was successfully selected for element Street Address Country
+[Info] Element Same For Postal successfully clicked.
+[Info] ABSA was successfully selected for element Bank Name
+[Info] 632005 was successfully typed to element Bank Code
+[Info] 123456789 was successfully typed to element Bank Acc Number
+[Info] Current Account was successfully selected for element Bank Acc Type
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] Date Value from ScheduleParameter table is: 2014/10/28
+[Info] Successful retrieval of Deduction Day: 31
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] Debit Order was successfully selected for element Payment Method
+[Info] 31 was successfully selected for element Payment Day
+[Info] OM37389 was successfully typed to element Operation Code
+[Info] OM37389 was successfully typed to element Staff Code
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-28_Schemes_SchemeDetails_AfterCapturingSchemeDetails_Favor Administrators.png taken successfully.
+[Info] Element Add Scheme successfully clicked.
+[Info] Successfully waited for 2000 miliseconds
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-37_Schemes_SchemeDetails_SuccessfullyCreatedMessage_Favor Administrators.png taken successfully.
+[Info] Element Messages found.
+[Info] Element Close found.
+[Info] Floating Message box successfully closed.
+[Info] Element Scheme Heading found.
+[Info] Element leftnav found.
+[Info] Scheme Status "New Business Wip " successfully retrieved from the page
+[Info] ************************Scheme Details************************
+Scheme Number: BS0010152000000
+Scheme Status - NB WIP: New Business Wip
+Scheme Message After Adding Scheme: You have successfully added the scheme
+2014-10-28_03-25-39=============Add Scheme Product Options=============
+[Info] Successfully waited for 2000 miliseconds
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-41_Schemes_PolicyAdmin_Favor Administrators.png taken successfully.
+[Info] Element AddOption successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-42_Schemes_AddSchemeProductionOptionBoxBeforeSelection_Favor Administrators.png taken successfully.
+[Info] CORE FAMILY SUPER AND THREE ADULT DEPENDANTS was successfully selected for element Add Product
+[Info] Successfully waited for 2000 miliseconds
+[Info] 15000 was successfully selected for element Add Cover
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-45_Schemes_AddSchemeProductionOptionBoxAfterSelection_Favor Administrators.png taken successfully.
+[Info] Element Add Option successfully clicked.
+[Info] Successfully waited for 2000 miliseconds
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-50_Schemes_AddSchemeProductionOptionAdded_Favor Administrators.png taken successfully.
+[Info] Element Policy Admin Product found.
+2014-10-28_03-25-50=============Add Scheme Members Via Policy Admin=============
+[Info] Successfully waited for 2000 miliseconds
+[Info] Element Schemes successfully clicked.
+[Info] Favor Administrators was successfully typed to element Scheme Name
+[Info] Element Search successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-55_Schemes_Searching_Favor Administrators.png taken successfully.
+[Info] Element Update Scheme successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-56_Schemes_UpdatingView_Favor Administrators.png taken successfully.
+[Info] Element Policy Admin successfully clicked.
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-25-56_Schemes_PolicyAdmin_Favor Administrators.png taken successfully.
+[Info] Element Add Principle Member successfully clicked.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] 5507302864086 was successfully typed to element Main Member Id Number
+[Info] MRS was successfully selected for element Main Member Title
+[Info] Andrews was successfully typed to element Main Member Surname
+[Info] Trueweda was successfully typed to element Main Member Firstname
+[Info] Female was successfully selected for element Main Member Gender
+[Info] 30/07/1955 was successfully typed to element Main Memeber Date Of Birth
+[Info] Element Scheme Heading found.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] The status of the scheme "BS0010152000000" is New Business WIP
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] Spouse was successfully selected for element Main Memeber Next Actions
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-00_Schemes_Adding_Principal_Member_Favor Administrators.png taken successfully.
+[Info] Element UI button set found.
+[Info] Element Confirm found.
+[Info] Successfully waited for 2000 miliseconds
+*****************New Principal Member Added*****************
+ID: 5507302864086
+Title: MRS
+Surname: Andrews
+Firstname: Trueweda
+Gender: Female
+DOB: 30/07/1955
+Next Relationship: Spouse
+************************************************************
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] 5508307114089 was successfully typed to element Id Number
+[Info] MR was successfully selected for element Title
+[Info] Andrews was successfully typed to element Surname
+[Info] Anthony was successfully typed to element Firstname
+[Info] Male was successfully selected for element Gender
+[Info] 30/08/1955 was successfully typed to element Date Of Birth
+[Info] Element Scheme Heading found.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] The status of the scheme "BS0010152000001" is 
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] Child was successfully selected for element Next Actions
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-09_Schemes_Adding_Spouse_Member_Favor Administrators.png taken successfully.
+[Info] Element Add Member successfully clicked.
+[Info] Successfully waited for 2000 miliseconds
+*****************New Spouse Member Added*****************
+ID: 5508307114089
+Title: MR
+Surname: Andrews
+Firstname: Anthony
+Gender: Male
+DOB: 30/08/1955
+Next Relationship: Child
+*********************************************************
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] 0609017683085 was successfully typed to element Id Number
+[Info] MR was successfully selected for element Title
+[Info] Andrews was successfully typed to element Surname
+[Info] John was successfully typed to element Firstname
+[Info] Male was successfully selected for element Gender
+[Info] 01/09/2006 was successfully typed to element Date Of Birth
+[Info] Element Scheme Heading found.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] The status of the scheme "BS0010152000001" is 
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+The member is 8 years old.
+[Info] Adult Dependant/Extended was successfully selected for element Next Actions
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-14_Schemes_Adding_Child_Member_Favor Administrators.png taken successfully.
+[Info] Element Add Member successfully clicked.
+[Info] Successfully waited for 2000 miliseconds
+*****************New Child Member Added*****************
+ID: 0609017683085
+Title: MR
+Surname: Andrews
+Firstname: John
+Gender: Male
+DOB: 01/09/2006
+Next Relationship: Adult Dependant/Extended
+*********************************************************
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] 4011025365084 was successfully typed to element Id Number
+[Info] MR was successfully selected for element Title
+[Info] Andrews was successfully typed to element Surname
+[Info] Mike was successfully typed to element Firstname
+[Info] Male was successfully selected for element Gender
+[Info] 02/11/1940 was successfully typed to element Date Of Birth
+[Info] Element Scheme Heading found.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] The status of the scheme "BS0010152000001" is 
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info]  - Do nothing -  was successfully selected for element Next Actions
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-21_Schemes_Adding_Adult Dependant Extended_Member_Favor Administrators.png taken successfully.
+[Info] Element Add Member successfully clicked.
+[Info] Successfully waited for 2000 miliseconds
+*****************New Adult Dependant Member Added*****************
+ID: 4011025365084
+Title: MR
+Surname: Andrews
+Firstname: Mike
+Gender: Male
+DOB: 02/11/1940
+Next Relationship:  - Do nothing - 
+******************************************************************
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-26_Schemes_AllMembersAdded_Favor Administrators.png taken successfully.
+[Info] Element Back To Policy Admin found.
+2014-10-28_03-26-27=============Set Scheme To Be Assessed=============
+[Info] Successfully waited for 2000 miliseconds
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-29_Schemes_PolicyAdminAfterMemberAdded_Favor Administrators.png taken successfully.
+[Info] Element To Be Assessed successfully clicked.
+[Info] Element Scheme Heading found.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-32_Schemes_AssessScheme_Favor Administrators.png taken successfully.
+[Info] 6 was successfully selected for element Core Family Options 0 PM Waiting Period
+[Info] 6 was successfully selected for element Core Family Options 0 AD Waiting Period
+[Info] Element Accept successfully clicked.
+[Info] Element leftnav found.
+[Info] Scheme Status "To Be Assessed " successfully retrieved from the page
+[Info] Scheme Status - To Be Assessed: To Be Assessed
+[Info] Element Assess successfully clicked.
+[Info] Successfully waited for 2000 miliseconds
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-39_Schemes_SuccessfullyAssessedMessage_Favor Administrators.png taken successfully.
+[Info] Element Messages found.
+[Info] Element Close found.
+[Info] Floating Message box successfully closed.
+[Info] Scheme Message After Scheme Assessed: Success: Accepting a scheme requires a recalculation of the premium and will be done by the OneFM Workflow Service. The scheme will be made AFP in the next 10 - 15 minutes.
+[Info] Scheme Number: BS0010152000000
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-40_Schemes_InfoViewBeforeStatusChangeToAwait1stPrem_Favor Administrators.png taken successfully.
+[Info] Database Connection String is: jdbc:sqlserver://omdsqv051\dev:63106;databaseName=RMM_BSSP_OneFM_App;integratedSecurity=true
+[Info]**********DATABASE CONNECTION TO 'DEV' WAS SUCCESSFUL**********
+[Info] Scheme Favor Administrators has been successfully updated
+[Info]**********DATABASE CONNECTION CLOSE WAS SUCCESSFUL**********
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\PASSED_2014-10-28_03-26-42_Schemes_InfoViewAfterStatusChangeToAwait1stPrem_Favor Administrators.png taken successfully.
+[Info] Element leftnav found.
+[Info] Scheme Status "Awaiting First Premium " successfully retrieved from the page
+[Info] Scheme Status - Awaiting First Premium: Awaiting First Premium
+[Info] Scheme successfully Assessed
+2014-10-28_03-26-44=============Create Daily Raising And YMOutput File=============
+[Info] Successfully waited for 2000 miliseconds
+[Info] Element Policy Admin successfully clicked.
+[Info] Element Scheme Heading found.
+[Info]**********Starting to Run the Daily Raising.....Processing....**********
+[Info] Screenshot C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members\Favor Administrators\FAILED_2014-10-28_03-26-48_Failed to complete addNewBSSPSchemeWithProductOptionAndMembersTest_.png taken successfully.
+[Info] Zip File Entry: 2014-10-28_03-22-02_OneFM_ErrorTest_Log.txt
+[Info] Zip File Entry: 2014-10-28_03-22-02_OneFM_InfoTest_Log.txt
+[Info] Zip File Entry: Favor Administrators\FAILED_2014-10-28_03-26-48_Failed to complete addNewBSSPSchemeWithProductOptionAndMembersTest_.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-24-18_Schemes_Page_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-24-21_Schemes_BeforeCapturingMinReqs_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-08_Schemes_MinReqsConfirmExternalVendor_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-09_Schemes_SchemeDetails_BeforeCapturingSchemeDetails_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-28_Schemes_SchemeDetails_AfterCapturingSchemeDetails_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-37_Schemes_SchemeDetails_SuccessfullyCreatedMessage_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-41_Schemes_PolicyAdmin_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-42_Schemes_AddSchemeProductionOptionBoxBeforeSelection_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-45_Schemes_AddSchemeProductionOptionBoxAfterSelection_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-50_Schemes_AddSchemeProductionOptionAdded_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-55_Schemes_Searching_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-56_Schemes_PolicyAdmin_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-25-56_Schemes_UpdatingView_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-00_Schemes_Adding_Principal_Member_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-09_Schemes_Adding_Spouse_Member_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-14_Schemes_Adding_Child_Member_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-21_Schemes_Adding_Adult Dependant Extended_Member_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-26_Schemes_AllMembersAdded_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-29_Schemes_PolicyAdminAfterMemberAdded_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-32_Schemes_AssessScheme_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-39_Schemes_SuccessfullyAssessedMessage_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-40_Schemes_InfoViewBeforeStatusChangeToAwait1stPrem_Favor Administrators.png
+[Info] Zip File Entry: Favor Administrators\PASSED_2014-10-28_03-26-42_Schemes_InfoViewAfterStatusChangeToAwait1stPrem_Favor Administrators.png
+[Info] Directory node was successfully zipped
+[Info] Directory node was successfully zipped
+Output to Zip : C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\Add_New_BSSP_Scheme_With_Product_Option_And_Members.zip
+File Added : 2014-10-28_03-22-02_OneFM_ErrorTest_Log.txt
+File Added : 2014-10-28_03-22-02_OneFM_InfoTest_Log.txt
+File Added : Favor Administrators\FAILED_2014-10-28_03-26-48_Failed to complete addNewBSSPSchemeWithProductOptionAndMembersTest_.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-24-18_Schemes_Page_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-24-21_Schemes_BeforeCapturingMinReqs_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-08_Schemes_MinReqsConfirmExternalVendor_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-09_Schemes_SchemeDetails_BeforeCapturingSchemeDetails_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-28_Schemes_SchemeDetails_AfterCapturingSchemeDetails_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-37_Schemes_SchemeDetails_SuccessfullyCreatedMessage_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-41_Schemes_PolicyAdmin_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-42_Schemes_AddSchemeProductionOptionBoxBeforeSelection_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-45_Schemes_AddSchemeProductionOptionBoxAfterSelection_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-50_Schemes_AddSchemeProductionOptionAdded_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-55_Schemes_Searching_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-56_Schemes_PolicyAdmin_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-25-56_Schemes_UpdatingView_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-00_Schemes_Adding_Principal_Member_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-09_Schemes_Adding_Spouse_Member_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-14_Schemes_Adding_Child_Member_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-21_Schemes_Adding_Adult Dependant Extended_Member_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-26_Schemes_AllMembersAdded_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-29_Schemes_PolicyAdminAfterMemberAdded_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-32_Schemes_AssessScheme_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-39_Schemes_SuccessfullyAssessedMessage_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-40_Schemes_InfoViewBeforeStatusChangeToAwait1stPrem_Favor Administrators.png
+File Added : Favor Administrators\PASSED_2014-10-28_03-26-42_Schemes_InfoViewAfterStatusChangeToAwait1stPrem_Favor Administrators.png
+Done
+[Info] ZipDirectory was successfully executed
+2014-10-28_03-26-49=============Updating Quality Center=============
+[Info] QC Connection is OPEN
+[Info] Successful logon to QC!!!
+[Info] Test Set Name "Automation Testing" Exist in the Path "Root\Foundation_Market\Release7.0.0_20-08-2014\Dev Environment\Regression Testing"
+[Info] Number of test instances: 22
+[Info] Testcase "Add New BSSP Scheme With Product Option And Members Test" Found under the Test Set Name "Automation Testing" and the Path "Root\Foundation_Market\Release7.0.0_20-08-2014\Dev Environment\Regression Testing"
+[Info] File Location = C:\Users\OM37389\AppData\Local\Temp\TD_80\TDAPIC~1\97af0ab6\Attach\RUN\277\Add_New_BSSP_Scheme_With_Product_Option_And_Members.zip
+[Info] Client Path = C:\Projects\OneFM\Test Automation\OneFM Automated Testing\OneFM\TestResultReports\Schemes\
+[Info] Test Case "Add New BSSP Scheme With Product Option And Members Test" successfully updated
+[Info] Test Set Name is: "Automation Testing" and the Path is: "Root\Foundation_Market\Release7.0.0_20-08-2014\Dev Environment\Regression Testing"
+[Info] CLOSED

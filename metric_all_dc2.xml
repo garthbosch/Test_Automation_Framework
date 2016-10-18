@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DC2-STB1 - Metrics Test">
+    <test name="DC2-STB1 - Back To Transaction List Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:1,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - List Phones Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:1,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - List Subscribers Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:1,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - List Transactions Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:1,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - List Users Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:1,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Show Sub-Transactions Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:1,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Show Transaction Details Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:1,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Sort Phones Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:1,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Sort Subscribers Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:1,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Sort Transactions Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:1,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Sort Users Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:1,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Get Total Transactions Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:1,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Get Total Users Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:1,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Get Total Subscribers Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:1,
+                                         Get_Total_Phone:0" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+
+    <test name="DC2-STB1 - Get Total Phones Metric" enabled="true">
+        <parameter name="url" value="https://172.26.168.110:12184" />
+        <parameter name="remoteWebDriverURL" value="http://172.26.144.39:22222/wd/hub" />
+        <parameter name="username" value="C110Admin" />
+        <parameter name="domainName" value="customerC110.com" />
+        <parameter name="password" value="C!sco_123" /> <!--User self service password-->
+        <parameter name="actions" value="List_Transactions:0,
+                                         Show_Detail_of_Latest_Transaction:0,
+                                         Back_to_List_Transactions:0,
+                                         Sort_List_Transactions:0,
+                                         Get_Total_Transactions:0,
+                                         List_Phones:0,
+                                         List_Subscribers:0,
+                                         List_Users:0,
+                                         Sort_Users:0,
+                                         Sort_Subscribers:0,
+                                         Sort_Phone_List:0,
+                                         Show_Sub_Transactions:0,
+                                         Get_Total_Users:0,
+                                         Get_Total_Subscribers:0,
+                                         Get_Total_Phone:1" />
+        <groups>
+            <run>
+                <include name="initMetrics" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cisco.hcs.rtp.test.auto.browserTest.tests.metrics_tests.MetricsTest" />
+        </classes>
+    </test>
+</suite>

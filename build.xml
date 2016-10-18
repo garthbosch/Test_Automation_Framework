@@ -1,0 +1,55 @@
+<project name="OneFMTestExecution" basedir="." default="test">
+    <property name="dest.dir" value="build" />
+    <property name="dest.dir.classes" value="${dest.dir}/classes" />
+    <property name="dest.dir.lib" value="${dest.dir}/lib" />
+    <property name="home" value="." />
+
+    <path id="build.class.path">
+        <fileset dir="${home}/TestGoodies">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+    
+    <path id="test.home.data">
+        <fileset dir="${home}/testDATA">
+            <include name="*.csv" />
+        </fileset>
+    </path>
+
+    <path id="test.class.path">
+        <pathelement location="${dest.dir.classes}" />
+    </path>
+
+    <target name="clean">
+        <delete dir="${dest.dir}" />
+    </target>
+
+    <target name="prepare">
+        <mkdir dir="${dest.dir}" />
+        <mkdir dir="${dest.dir.classes}" />
+    </target>
+
+    <target name="compile" depends="clean,prepare">
+        <javac srcdir="src" destdir="${dest.dir.classes}">            
+            <classpath refid="build.class.path" />
+        </javac>
+        <javac srcdir="testNG" destdir="${dest.dir.classes}">
+            <classpath refid="build.class.path" />
+        </javac>
+    </target>
+
+    <target name="run" depends="compile"/>
+	
+    <target name="test" depends="compile">
+        <junit fork="true" showoutput="yes" haltonfailure="false" haltonerror="false" errorproperty="test.error" failureproperty="test.error" 
+               printsummary="withOutAndErr">
+            <sysproperty key="myTest" value="${whatever}"/>
+            <sysproperty key="ENV" value="${ENV}"/>
+            <classpath refid="test.class.path" />
+            <classpath refid="build.class.path" />
+            <formatter type="xml" usefile="true" />
+            <test name="${myTest}" outfile ="report" />
+            <!--<test name="testFramework.testing.PremiumCollectionsTestsNG" />-->
+        </junit>
+    </target>
+</project>
